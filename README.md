@@ -17,8 +17,8 @@ src/
 │   ├── NotificadorSMS.java
 │   └── NotificadorWhatsApp.java
 ├── relatorio/
-│   ├── RelatorioTexto.java
-│   └── RelatorioJSON.java
+    ├── RelatorioTexto.java
+    └── RelatorioJSON.java
 
 ```
 
