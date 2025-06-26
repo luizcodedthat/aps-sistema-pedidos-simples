@@ -19,13 +19,10 @@ src/
 ├── relatorio/
     ├── RelatorioTexto.java
     └── RelatorioJSON.java
-
-````
+```
 
 ## ☕ Requisitos
-- Java 17 ou superior instalado
-
-```
+- Java 8 ou superior instalado
 
 ## ▶️ Como Executar
 1. Compile todos os arquivos:
