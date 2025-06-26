@@ -24,7 +24,7 @@ src/
 
 ## ☕ Requisitos
 - Java 17 ou superior instalado
-```
+
 ```
 
 ## ▶️ Como Executar
