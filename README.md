@@ -20,6 +20,11 @@ src/
     ├── RelatorioTexto.java
     └── RelatorioJSON.java
 
+````
+
+## ☕ Requisitos
+- Java 17 ou superior instalado
+```
 ```
 
 ## ▶️ Como Executar
