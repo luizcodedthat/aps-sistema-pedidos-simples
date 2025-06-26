@@ -6,20 +6,31 @@ import java.util.List;
 import servico.FreteCalculadora;
 
 public class Pedido {
+	private double frete;
 	private List<ItemPedido> itensPedido = new ArrayList<>();
-	private FreteCalculadora calculadoraFrete;
 	
 	private final Cliente cliente;
 
-	public Pedido(Cliente cliente, FreteCalculadora calculadoraFrete) {
+	public Pedido(Cliente cliente) {
 		this.cliente = cliente;
-		this.calculadoraFrete = calculadoraFrete;
 	}
 
 	public Cliente getCliente() {
 		return cliente;
 	}
+	
+	public List<ItemPedido> getPedidos() {
+		return itensPedido;
+	}
 
+	public void setFrete(double frete) {
+		this.frete = frete;
+	}
+	
+	public void adicionarItem(ItemPedido item, int quantidade) {
+		itensPedido.add(item);
+	}
+	
 	public double calcularTotalPedido() {
 		double precoTotal = 0;
 		
@@ -30,8 +41,6 @@ public class Pedido {
 		return precoTotal;
 	}
 	
-	public double calcularFrete() {
-		return calculadoraFrete.calcularFrete();
-	}
+	
 	
 }

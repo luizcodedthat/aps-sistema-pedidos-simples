@@ -6,6 +6,12 @@ public class Produto {
 	private double preco;
 	private double peso;
 	
+	public Produto(String nome, double preco, double peso) {
+		this.nome = nome;
+		this.preco = preco;
+		this.peso = peso;
+	}
+	
 	public String getNome() {
 		return nome;
 	}
