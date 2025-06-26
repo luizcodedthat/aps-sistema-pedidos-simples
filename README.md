@@ -19,8 +19,7 @@ src/
 ├── relatorio/
 │   ├── RelatorioTexto.java
 │   └── RelatorioJSON.java
-└── util/
-    └── Entrada.java
+
 ```
 
 ## ▶️ Como Executar
