@@ -1,7 +1,7 @@
 package servico;
 
 
-import model.Cliente;
+import modelo.Cliente;
 
 public class NotificadorEmail {
 

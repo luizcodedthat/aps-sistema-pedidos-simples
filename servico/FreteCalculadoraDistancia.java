@@ -1,15 +1,9 @@
 package servico;
 
-
 import modelo.Pedido;
 
 public class FreteCalculadoraDistancia {
-
-	public FreteCalculadoraDistancia(double distancia) {
-		this.distancia = distancia;
-	}
-
-	public double calcular(Pedido pedido) {
-		return distancia * 0.5; 
-	}
+    public double calcular(Pedido pedido, double distanciaKm) {
+        return distanciaKm * 0.5;
+    }
 }

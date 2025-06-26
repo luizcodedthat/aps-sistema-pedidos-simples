@@ -1,10 +1,11 @@
 package sistemaPedidos;
 
-import model.*;
 import servico.*;
 import relatorio.*;
 
 import java.util.*;
+
+import modelo.*;
 
 public class Main {
     private static List<Cliente> clientes = new ArrayList<>();

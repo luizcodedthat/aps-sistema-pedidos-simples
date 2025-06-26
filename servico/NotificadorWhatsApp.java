@@ -1,14 +1,9 @@
 package servico;
 
-
-
-import model.Cliente;
+import modelo.Cliente;
 public class NotificadorWhatsApp {
-
-	public NotificadorWhatsApp() {
 		public void enviar(Cliente cliente) {
 			System.out.println("Enviando WhatsApp para " + cliente.getTelefone() + ": Seu pedido foi confirmado!");
 		}
-	}
 
 }

@@ -1,14 +1,10 @@
 package servico;
 
-
-
-import model.Cliente;
+import modelo.Cliente;
 public class NotificadorSMS {
 
-	public NotificadorSMS() {
-		public void enviar(Cliente cliente) {
-			System.out.println("Enviando SMS para " + cliente.getTelefone() + ": Seu pedido foi confirmado!");
-		}
+	public void enviar(Cliente cliente) {
+		System.out.println("Enviando SMS para " + cliente.getTelefone() + ": Seu pedido foi confirmado!");
 	}
 
 }
