@@ -1,9 +1,13 @@
 package servico;
 
+
+import modelo.Pedido;
+
 public class FreteCalculadoraPeso {
 
-	public FreteCalculadoraPeso() {
-		// TODO Auto-generated constructor stub
+	public double calcular(Pedido pedido) {
+		return pedido.getDistancia() * 0.5; 
+		
 	}
 
 }
